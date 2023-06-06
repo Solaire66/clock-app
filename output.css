@@ -1,0 +1,25 @@
+body {
+  background: black;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+body #clockdate {
+  font-family: "Share Tech Mono", monospace;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 50px rgb(0, 233, 250);
+}
+body #clockdate #clock {
+  font-size: 80px;
+}
+body #clockdate #date {
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=output.css.map */
